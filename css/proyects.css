@@ -1,0 +1,148 @@
+#btnMenu {
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+    z-index: 1000; 
+}
+
+#btnMenu img {
+    width: 50px; 
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    #btnMenu img {
+        width: 40px; 
+    }
+}
+
+@media (max-width: 480px) {
+    #btnMenu img {
+        width: 30px; 
+    }
+
+    #btnMenu {
+        bottom: 10px; 
+        right: 10px;
+    }
+}
+
+.title{
+    padding: 1%;
+    padding-top: 2%;
+    margin-bottom: 0;
+}
+.marco{
+    margin: 1%;
+    text-align: center;
+    
+}
+#menu {
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#icono {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#icono img {
+    height: 50px;
+    width: auto;
+}
+.shadow{
+    box-shadow: 10px 10px 10px rgb(250,137,8,0.5)
+}
+.subtitle {
+    padding: 1%;
+    color: white;
+    margin-top: 0;
+    border-radius: 20px;
+    margin-bottom: 2%;
+    transition: background-color 0.5s, border 0.5s, color 0.5s; 
+}
+
+.subtitle.hover {
+    background-color: #fa8908;
+    border: 2px solid #fa8908;
+    color: black;
+}
+
+#panels1{
+    margin: 2%;
+}
+
+#panels1 img {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+}
+
+#panels1 h3 {
+    margin-top: 10px; 
+    font-size: 22px;
+    padding: 4%;
+}
+
+body{
+    background-image: url('../img/hola (2).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fa8908;
+
+}
+
+.caveat-regular {
+    font-family: "Caveat", cursive;
+    font-weight: 800;
+    font-style: normal;
+    color: rgb(163, 162, 162);
+}
+
+.dancing-script-regular {
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.dancing-script-regular2 {
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.cookie-regular {
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+.footers{
+    color:white
+}
+.fade-in-element {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+.fade-in-element.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
